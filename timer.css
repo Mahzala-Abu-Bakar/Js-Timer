@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(140, 161, 181);
+  overflow-y: hidden;
+}
+
+.main1 {
+  width: 95%;
+  padding: 6px 16px;
+  text-align: right;
+  color: white;
+  margin-top: 40px;
+  border: 1px solid rgba(60, 128, 127, 0.494);
+  box-shadow: 2px 1px 12px rgb(43, 123, 135);
+  display: inline-block;
+  border-radius: 2px;
+  text-shadow: 2px 2px rgb(46, 123, 217);
+  letter-spacing: 0.2px;
+  word-spacing: 1px;
+}
+
+.main2 {
+  height: 100%;
+  position: absolute;
+  left: 25%;
+  top: 30%;
+  text-align: center;
+  color: rgb(248, 248, 248);
+}
+
+.Timer_display {
+  font-size: 52px;
+}
+
+.btns button {
+  margin: 6px 4px;
+  letter-spacing: 0.6px;
+  padding: 6px 21px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  color: rgb(244, 244, 244);
+  background-color: rgb(51, 56, 56);
+  border-radius: 2px;
+  box-shadow: 1px 1px 16px rgb(18, 47, 47);
+}
+
+.mainhor {
+  height: 92%;
+  width: 46%;
+  position: absolute;
+  right: 2%;
+  top: 2%;
+  border: 1px solid rgb(105, 120, 135);
+  box-shadow: -6px 6px 21px rgb(68, 94, 112);
+  display: inline-block;
+  transform: perspective(1200px) rotateX(-1deg) rotateY(-1deg);
+  transform-style: preserve-3d;
+  z-index: 1;
+}
+
+.main3 {
+  position: absolute;
+  bottom: 2px;
+  left: 6%;
+  height: 15%;
+  width: 94%;
+  border: 1px solid rgb(83, 123, 164);
+  box-shadow: 2px 1px 12px rgb(39, 98, 156);
+  display: inline-block;
+  border-radius: 2px;
+}
